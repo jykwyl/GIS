@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="https://js.arcgis.com/4.11/esri/themes/light/main.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<script src="js/echarts.js"></script>
+		<script src="https://js.arcgis.com/4.11/"></script>
+		<script src="js/map.js"></script>
+		<title></title>
+	</head>
+	<body>
+		<div id="viewDiv">
+			<div id="mychart">
+				<select id="slt">
+					<option>GDP</option>
+					<option>GDP增速</option>
+					<option>单位GDP综合能耗</option>
+				</select>
+				<select id="slt2">
+					<option value="bar">柱状图</option>
+					<option value="line">折线图</option>
+				</select>
+				<div id="box"></div>
+			</div>
+			<div class="btns">
+				<input type="radio" name="ra" value="0" /> streets
+				<br />
+				<input type="radio" name="ra" value="1" /> topo
+				<br />
+				<input type="radio" name="ra" value="2" /> hybrid
+				<br />
+				<input type="radio" name="ra" value="3" /> terrain
+				<br />
+				<input type="radio" name="ra" value="4" /> osm
+				<br />
+			</div>
+			<div class="checks">
+				<input type="checkbox" id="0" /> 武汉市中心城区
+				<br />
+				<input type="checkbox" id="1" /> 武汉轨道交通站点
+			</div>
+			<div id="sltlayer">
+				<select class="slt" id="test" size="4" multiple="multiple">
+				</select>
+			</div>
+			<div class="buffer">
+				<input type="checkbox" id="bf" />缓冲区
+			</div>
+			<div id="buf2">缓冲区半径:
+				<input id="distance" type="range" min="0" max="3000" step="10" value="0" />&nbsp; <span id="distance-value">0</span> meters <br />
+			</div>
+		</div>
+	</body>
+	<script src="js/mychart.js"></script>
+</html>

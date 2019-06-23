@@ -6,22 +6,21 @@ body,
 	height: 100%;
 	width: 100%;
 }
-
 #mychart {
 	position: fixed ! important;
 	right: 0px;
-	top: 50px;
-	width: 250px;
-	height: 300px;
+	top: 5.8%;
+	width: 16.2%;
+	height: 34.8%;
 	background-color: #C9C9C9;
 }
 
 #box {
 	position: fixed ! important;
 	right: 0px;
-	top: 100px;
-	width: 250px;
-	height: 250px;
+	top: 11.6%;
+	width: 16.2%;
+	height: 29%;
 	position: relative;
 }
 
@@ -38,30 +37,30 @@ body,
 .btns {
 	position: fixed ! important;
 	right: 5px;
-	top: 360px;
+	top: 41.7%;
 }
 
 .checks {
 	position: fixed ! important;
 	right: 5px;
-	top: 480px;
+	top: 55.6%;
 }
 
 #sltlayer {
 	position: fixed ! important;
 	right: 5px;
-	top: 525px;
+	top: 60.8%;
 }
 .buffer{
 	position: fixed ! important;
 	right: 5px;
-	top: 605px;
+	top: 70%;
 }
 #buf2 {
 	display: none;
 	position: fixed ! important;
 	right: 5px;
-	top: 625px;
+	top: 72.3%;
 	width: auto;
 	height: auto;
 	background-color: #CDC673;
@@ -69,5 +68,5 @@ body,
 #topbar{
 	position: fixed ! important;
 	right: 5px;
-	top: 635px;
+	top: 73.5%;
 }
